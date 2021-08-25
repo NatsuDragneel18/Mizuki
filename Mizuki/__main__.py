@@ -75,11 +75,14 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-PM_START_TEXT = "*Hey {},*\n*I am {} 😌,*\n\n*• I'm a powerful group manager bot.👻*\n*• My Owner is* [SUPUN 🇱🇰](t.me/Tikka_bro) 😌❤❤\n*• Send /help available commands🛠*"
+PM_START_TEXT = """Hey hi {}, I'm {}!
+
+I am an Group Management bot only for Anime Chamber Club.
+
+The Bot is made by [Owner](https://t.me/Natsu_Dragneel_FT)."""
 
 HELP_STRINGS = """
-Hey 👻! My name is *{}*.
-I'm a group management bot, here to help you get around and keep the order in your groups!
+Hey there! My name is *{}*.
 
 *Main* commands available:
  • /help: PM's you this message.
@@ -93,12 +96,14 @@ I'm a group management bot, here to help you get around and keep the order in yo
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/af86973849bc43cc8e3ce.jpg"
+SAITAMA_IMG = "https://telegra.ph/file/842709bf36d6c9ff8d724.jpg
 
-DONATE_STRING = """Heya, glad to hear you want to donate for developer. This bot runs on heroku so bot slow down some times and developer cannot add more modules due to heroku can't run them.\n\nBetter if my developer recieved a VPS to run the bot. Contact him and help him to continue this.\n\nDeveloper: [@ImJanindu](t.me/imjanindu)"""
+DONATE_STRING = """Heya, glad to hear you want to donate!
+
+But My Owner Is Very Rich No Need To Donate me😉😉."""
 
 IMPORTED = {}
-MIGRATEABLE = []
+MIGRATEABLE = []Heya
 HELPABLE = {}
 STATS = []
 USER_INFO = []
@@ -212,7 +217,7 @@ def start(update: Update, context: CallbackContext):
 [
 [
                             InlineKeyboardButton(
-                                text="Add to your Group➕",
+                                text="Add to your Group",
                                 url="t.me/{}?startgroup=true".format(
                                     context.bot.username
                                 ),
@@ -220,17 +225,17 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Support Group🧡",
-                                url=f"https://t.me/eztee_chat",
+                                text="Anime Chamber",
+                                url=f"https://t.me/animechamberanime",
                             ),
                             InlineKeyboardButton(
-                                text="📌 Updates Channel",
-                                url="https://t.me/ez_tee_youtube",
+                                text="Manga Chamber ",
+                                url="https://t.me/mangachamber",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="🇱🇰 Developer", url="https://github.com/Ez-tee"
+                                text="Request Group", url="https://t.me/thechamberofanimefans"
                             ),
                         ],
                     ]
