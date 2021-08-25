@@ -96,7 +96,7 @@ Hey there! My name is *{}*.
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !\n",
 )
 
-SAITAMA_IMG = "https://telegra.ph/file/842709bf36d6c9ff8d724.jpg
+SAITAMA_IMG = "https://telegra.ph/file/842709bf36d6c9ff8d724.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 
