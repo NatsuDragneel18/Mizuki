@@ -235,7 +235,8 @@ def start(update: Update, context: CallbackContext):
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Request Group", url="https://t.me/thechamberofanimefans"
+                                text="Request Group", 
+                                url="https://t.me/thechamberofanimefans"
                             ),
                         ],
                     ]
